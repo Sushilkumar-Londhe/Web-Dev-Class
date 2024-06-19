@@ -1,0 +1,26 @@
+.card {
+    background-color: forestgreen;
+    width: 700px;
+    border: 5px orangered solid;
+}
+
+.card img{
+    background-color:forestgreen;
+    width: 700px;
+    height: 450px;
+    filter: grayscale(1);
+}
+
+.card p {
+    background-color: forestgreen;
+    color: black;
+    width: 700px;
+    height: 50px;
+}
+
+.card button {
+    background-color: aqua;
+    color: black;
+    width: 700px;
+    height: 100px;
+}

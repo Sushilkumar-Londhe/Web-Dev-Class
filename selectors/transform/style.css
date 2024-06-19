@@ -1,0 +1,9 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    margin: auto;
+    translate: 20px 300px; /* translate position is change kr raha hai*/
+    rotate: 45deg;
+    scale: 3; /* width and height is changing */
+}

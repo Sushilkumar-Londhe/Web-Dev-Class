@@ -1,0 +1,21 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background-color:red;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+/* Pseudo Selector */
+
+.box:active .box1{
+    background: orangered;  
+}
+
+.box1{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+}

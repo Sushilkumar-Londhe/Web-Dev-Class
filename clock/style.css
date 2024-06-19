@@ -1,0 +1,24 @@
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    position: absolute;
+}
+#circle1{
+    background-color: brown;
+    left: 50%;
+    animation: circle 5s ease-in-out infinite alternate;
+    background-image: linear-gradient(red ,yellow);
+
+}
+#circle2{
+    background-color: cadetblue;
+    right: 50%;
+    animation: circle 5s ease-in-out infinite alternate-reverse;
+    background-image: linear-gradient(aqua,black);
+}
+@keyframes circle{
+    from{top: 30%;}
+    to{top: 60%;}
+}

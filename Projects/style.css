@@ -75,7 +75,6 @@ html,body{
     font-size: smaller;
 }
 .services{
-    height: 80vh;
     display: flex;
     align-items: center;
     padding-top: 50px;
@@ -101,7 +100,6 @@ display: flex;
 align-items: center;
 flex-direction: column;
 gap: 20px;
-
 }
 .list img{
     width: 200px;
@@ -109,4 +107,29 @@ gap: 20px;
 }
 .list h2{
     font-size: xx-large;
+}
+.clients{
+    height: 40vh;
+    margin-top: 50px;
+    background:url(bg1.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients h1{
+    font-size: xx-large;
+    margin-top: 20px;
+    font-style: italic;
+}
+.images{
+width: 100%;
+height: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.images img{
+    height: 60%;
+    filter: drop-shadow(3px 1px 4px black);
 }

@@ -10,7 +10,7 @@ for(const square of squareArray){
         
         square.style.transition = "background-color 0s ease";
 
-        square.style.boxShadow = "0px 0px 0px 10px" + colors[randomNum];
+        square.style.boxShadow = "0px 0px 10px" + colors[randomNum];
         });
 
         square.addEventListener("mouseleave",()=>{

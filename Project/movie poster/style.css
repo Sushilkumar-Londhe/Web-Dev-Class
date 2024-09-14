@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background: rgb(156, 106, 110);
+    margin: 0;
+    font-family: sans-serif;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Movie{
+    width: 300px;
+    margin: 1rem;
+    background-color: brown;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.Movie img{
+    width: 100%;
+}
+.Movie-Info{
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    letter-spacing: 0.5px;
+}
+.Movie-Info h3{
+    margin-top: 0;
+}
+.Overview{
+    background-color:whitesmoke;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+}
+.Movie:hover .Overview{
+    transform: translateY(0);
+}
